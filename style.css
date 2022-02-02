@@ -1,7 +1,14 @@
-.main{
+html{
     background-color: black;
     color: white;
+
 }
+#main{
+    background-color: black;
+    color: white;
+    min-width: fit-content;
+}
+
 #main a{
     color:white;
     font-family: 'Yrsa', serif;
@@ -29,7 +36,7 @@
     font-size: 30px;
 }
 
-.nav-link a{
+.nav-item a{
     text-decoration: none;
     color: white;
 }
@@ -235,9 +242,18 @@ hr{
     width:20%;
 }
 @media screen and (max-width: 480px) {
+    html{
+        max-width: 100%;
+    }
+    #main{
+        min-width: 100%;
+    }
     #hello{
         font-size: 50px;
-        min-width: 330px;
+        max-width: 320px;
+    }
+    #main nav{
+        max-width: 100%;
     }
     #main .col-4{
         width:100%;
@@ -249,6 +265,25 @@ hr{
         margin-left: 20%;
     }
     #main #cont{
-        margin:auto;
+        margin:8%;
+    }
+    #main a{
+        color:white;
+        font-family: 'Yrsa', serif;
+        font-size: 16px;
+    }
+    #main p{
+        color:white;
+        font-family: 'Yrsa', serif;
+        font-size: 16px;
     }
 }
+
+@media (min-width: 1200px){
+    .container {
+    max-width: 1140px;}
+}
+@media (min-width: 992px){
+    .container {
+    max-width: 960px;
+}}
