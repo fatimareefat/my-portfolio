@@ -241,7 +241,7 @@ hr{
 #main .col-4{
     width:20%;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1080px) {
     html{
         max-width: 100%;
     }
@@ -261,16 +261,16 @@ hr{
     #main .heading{
         font-size: 40px;
     }
-    #resume{
+    /* #resume{
         margin-left: 20%;
-    }
+    } */
     #main #cont{
         margin:8%;
     }
     #main a{
         color:white;
         font-family: 'Yrsa', serif;
-        font-size: 16px;
+        font-size: 18px;
     }
     #main p{
         color:white;
