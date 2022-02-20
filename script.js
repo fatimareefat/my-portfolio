@@ -6,7 +6,7 @@
 // --> Check https://codepen.io/bramus/pen/vKpjNP
 
 jQuery(function($) {
-  
+    console.log("Chal raha hai")
     // Function which adds the 'animated' class to any '.animatable' in view
     var doAnimations = function() {
       
